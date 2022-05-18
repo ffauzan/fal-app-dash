@@ -16,12 +16,10 @@ function AppItem({ app }) {
 						<div className="max-h-24 overflow-hidden">{app.desc}</div>
 					</div>
 				</div>
-				{/* <div className=""> */}
-					<nav className="flex justify-around mx-auto">
-						<a target="_blank" rel="noreferrer" href={app.url} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">Open</a>
-						<a target="_blank" rel="noreferrer" href={app.githubLink} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">Github</a>
-					</nav>
-				{/* </div> */}
+				<nav className="flex justify-around mx-auto">
+					<a target="_blank" rel="noreferrer" href={app.url} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">Open</a>
+					<a target="_blank" rel="noreferrer" href={app.githubLink} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">Github</a>
+				</nav>
 			</div>
 		</>
 	)
