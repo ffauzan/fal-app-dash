@@ -4,7 +4,7 @@ import Image from 'next/image'
 function AppItem({ app }) {
 	return (
 		<>
-			<div className="border-solid rounded-xl border-gray-800 p-2 m-2 hover:border shadow-md flex-col max-h-">
+			<div className="border-solid rounded-xl border-gray-800 p-2 m-2 lg:hover:border shadow-md flex-col max-h-">
 				<div className="flex justify-start">
 					<div className="shrink-0 h-28 w-28 relative m-2 mr-3">
 						<Image alt="logo" objectFit="cover" layout="fill" src="https://is3.cloudhost.id/fimg/pp.jpg"/>
