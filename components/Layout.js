@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Header from './Header'
 
 function Layout({ title, children }) {
   return (
@@ -8,6 +9,9 @@ function Layout({ title, children }) {
             <title>{title}</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
+        {/* <Header/> */}
+        <Header/>
+        {/* <Header3/> */}
         <main className="mx-auto max-w-screen-xl p-2 pt-6 min-h-screen">
             {children}
         </main>

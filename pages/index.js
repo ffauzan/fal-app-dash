@@ -5,22 +5,23 @@ import AppList from '../components/AppList'
 import Layout from '../components/Layout'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleLeft, faAustralSign, faFaceRelieved, faHome, faHouse, faHouseUser, faUser } from '@fortawesome/free-solid-svg-icons'
+import Header from '../components/Header'
 
 
 export default function Home(props) {
   // console.log(props.myApps[1])
   return (
     <Layout title="Fal's Apps">
-      <div className="flex justify-between max-w-lg lg:max-w-screen-lg mx-auto">
-        {/* <h1 className="text-5xl text-center">
+      {/* <div className="flex justify-between max-w-lg lg:max-w-screen-lg mx-auto shadow-md pb-5 px-2">
+        <h1 className="text-5xl text-center">
           <FontAwesomeIcon className="hover:text-slate-700" icon={faHouse} />
-        </h1> */}
-        <h1 className="text-5xl text-center font-sans mx-3">
+        </h1>
+        <h1 className="text-5xl text-center font-sans">
           Fal&#39;s Apps
         </h1>
-        {/* <h1 className="text-5xl text-center">
+        <h1 className="text-5xl text-center">
           <FontAwesomeIcon className="hover:text-slate-700" icon={faUser} />
-        </h1> */}
+        </h1>
         <nav className="flex justify-center space-x-1">
           <a href="https://fal.my.id">
             <button className="bg-indigo-500 hover:bg-indigo-400 text-white py-2 text-md px-3 rounded">Home</button>
@@ -29,7 +30,7 @@ export default function Home(props) {
             <button className="bg-indigo-500 hover:bg-indigo-400 text-white py-2 text-md px-3 rounded">Github</button>
           </a>
 				</nav>
-      </div>
+      </div> */}
       
       <AppList myApps={props.myApps}></AppList>
     
