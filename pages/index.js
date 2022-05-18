@@ -27,7 +27,7 @@ export function getStaticProps(context) {
     },
     {
       name: 'Oof QR',
-      desc: 'URL shortener & dynamic link QR code',
+      desc: 'URL shortener & dynami URL shoortener & dynamic link QR c link QR code uoqebfgo qeofqoe qoefqeo',
       url: 'https://oof.my.id',
       githubLink: 'https://github.com',
       imgUrl: 'https://is3.cloudhost.id/fimg/pp.jpg'
