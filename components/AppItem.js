@@ -18,8 +18,8 @@ function AppItem({ app }) {
 				</div>
 				{/* <div className=""> */}
 					<nav className="flex justify-around mx-auto">
-						<a href={app.url} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">Open</a>
-						<a href={app.githubLink} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">Github</a>
+						<a target="_blank" rel="noreferrer" href={app.url} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">Open</a>
+						<a target="_blank" rel="noreferrer" href={app.githubLink} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">Github</a>
 					</nav>
 				{/* </div> */}
 			</div>
