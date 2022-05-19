@@ -48,39 +48,39 @@ export function getStaticProps(context) {
   const myApps = [
     {
       name: "Shy Mail",
-      desc: "A temporary dispossable email",
+      desc: "A temporary dispossable email with Secure Inbox feature.",
       url: "https://shy.my.id",
-      githubLink: "https://github.com",
-      imgUrl: "https://is3.cloudhost.id/fimg/lgm.png",
-    },
-    {
-      name: "Oof QR",
-      desc: "URL shortener & dynami URL shoortener & dynamic link QR c link QR code uoqebfgo qeofqoe qoefqeo",
-      url: "https://oof.my.id",
-      githubLink: "https://github.com",
+      githubLink: "https://github.com/ffauzan/shy-mail-plus",
       imgUrl: "https://is3.cloudhost.id/fimg/pp.jpg",
     },
     {
-      name: "Oof QR",
-      desc: "URL shortener & dynamic link QR code",
-      url: "https://oof.my.id",
-      githubLink: "https://github.com",
+      name: "Oof Redir",
+      desc: "URL shortener. No front-end yet.",
+      url: "https://docs.oof.my.id",
+      githubLink: "https://github.com/ffauzan/oof-redir",
       imgUrl: "https://is3.cloudhost.id/fimg/sn.jpg",
     },
-    {
-      name: "Oof QR",
-      desc: "URL shortener & dynamic link QR code",
-      url: "https://oof.my.id",
-      githubLink: "https://github.com",
-      imgUrl: "https://is3.cloudhost.id/fimg/lgm.png",
-    },
-    {
-      name: "Oof QR",
-      desc: "URL shortener & dynamic link QR code",
-      url: "https://oof.my.id",
-      githubLink: "https://github.com",
-      imgUrl: "https://is3.cloudhost.id/fimg/pp.jpg",
-    },
+    // {
+    //   name: "Oof QR",
+    //   desc: "URL shortener & dynamic link QR code",
+    //   url: "https://oof.my.id",
+    //   githubLink: "https://github.com",
+    //   imgUrl: "https://is3.cloudhost.id/fimg/sn.jpg",
+    // },
+    // {
+    //   name: "Oof QR",
+    //   desc: "URL shortener & dynamic link QR code",
+    //   url: "https://oof.my.id",
+    //   githubLink: "https://github.com",
+    //   imgUrl: "https://is3.cloudhost.id/fimg/lgm.png",
+    // },
+    // {
+    //   name: "Oof QR",
+    //   desc: "URL shortener & dynamic link QR code",
+    //   url: "https://oof.my.id",
+    //   githubLink: "https://github.com",
+    //   imgUrl: "https://is3.cloudhost.id/fimg/pp.jpg",
+    // },
   ];
 
   return {
