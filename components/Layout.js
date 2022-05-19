@@ -12,7 +12,7 @@ function Layout({ title, children }) {
       {/* <Header/> */}
       <Header />
       {/* <Header3/> */}
-      <main className="mx-auto max-w-screen-xl lg:p-2 lg:pt-6 min-h-screen">
+      <main className="mx-auto min-h-screen max-w-screen-xl lg:p-2 lg:pt-6">
         {children}
       </main>
     </div>

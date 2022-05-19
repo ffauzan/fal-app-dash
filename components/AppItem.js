@@ -4,9 +4,9 @@ import Image from "next/image";
 function AppItem({ app }) {
   return (
     <>
-      <div className="border-solid bg-[#EEF2FF] rounded-xl border-gray-100 p-2 m-2 shadow-md flex-col max-h-">
+      <div className="max-h- m-2 flex-col rounded-xl border-solid border-gray-100 bg-[#EEF2FF] p-2 shadow-md">
         <div className="flex justify-start">
-          <div className="shrink-0 h-28 w-28 relative m-2 mr-3">
+          <div className="relative m-2 mr-3 h-28 w-28 shrink-0">
             <Image
               alt="logo"
               objectFit="cover"
@@ -21,12 +21,12 @@ function AppItem({ app }) {
             <div className="max-h-24 overflow-hidden">{app.desc}</div>
           </div>
         </div>
-        <nav className="flex justify-around mx-auto">
+        <nav className="mx-auto flex justify-around">
           <a
             target="_blank"
             rel="noreferrer"
             href={app.url}
-            className="rounded-lg flex-grow text-center px-3 py-2 text-slate-500 font-semibold hover:bg-slate-500 hover:text-slate-100"
+            className="flex-grow rounded-lg px-3 py-2 text-center font-semibold text-slate-500 hover:bg-slate-500 hover:text-slate-100"
           >
             Open
           </a>
@@ -34,7 +34,7 @@ function AppItem({ app }) {
             target="_blank"
             rel="noreferrer"
             href={app.githubLink}
-            className="rounded-lg flex-grow text-center px-3 py-2 text-slate-500 font-semibold hover:bg-slate-500 hover:text-slate-100"
+            className="flex-grow rounded-lg px-3 py-2 text-center font-semibold text-slate-500 hover:bg-slate-500 hover:text-slate-100"
           >
             Github
           </a>
