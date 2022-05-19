@@ -4,14 +4,14 @@ import Image from "next/image";
 function AppItem({ app }) {
   return (
     <>
-      <div className="max-h- m-2 flex-col rounded-xl border-solid border-gray-100 bg-[#EEF2FF] p-2 shadow-md">
+      <div className="mx-4 my-2 md:m-2 flex-col rounded-xl border-solid border-gray-100 bg-[#EEF2FF] p-2 shadow-md">
         <div className="flex justify-start">
           <div className="relative m-2 mr-3 h-28 w-28 shrink-0">
             <Image
               alt="logo"
               objectFit="cover"
               layout="fill"
-              src="https://is3.cloudhost.id/fimg/pp.jpg"
+              src={app.imgUrl}
             />
           </div>
           <div>
