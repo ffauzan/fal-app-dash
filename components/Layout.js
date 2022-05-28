@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Header from "./Header";
+import Footer from "./Footer";
 
 function Layout({ title, children }) {
   return (
@@ -15,6 +16,7 @@ function Layout({ title, children }) {
       <main className="mx-auto min-h-screen max-w-screen-xl lg:p-2 lg:pt-6">
         {children}
       </main>
+      <Footer/>
     </div>
   );
 }
