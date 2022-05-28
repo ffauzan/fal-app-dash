@@ -13,7 +13,7 @@ function Footer() {
 
                 <nav className="flex justify-center space-x-4 text-md text-gray-400 lg:justify-end">
                 <a href=""> Terms & Conditions </a>
-                <a href=""> Contact </a>
+                <a href="mailto:fal@fal.my.id"> Contact </a>
                 </nav>
             </div>
             </div>
